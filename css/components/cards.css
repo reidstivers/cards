@@ -61,6 +61,24 @@ margin: 10px;
   background-color: white;
   height: 500px;
   object-fit: contain;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 80px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .card-trip-img {
